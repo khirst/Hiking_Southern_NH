@@ -1,0 +1,202 @@
+body, html {
+    margin: 0;
+    margin: 0;
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.header, .title-section, .information, .quote-section, .sign-up-section, .footer {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
+.header, .footer, .title-section {
+    background-color: #29312f;
+    color: #F9FAF8;
+    display: flex;
+    
+    
+}
+
+.header {
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 100px;
+    gap: 100px;
+    
+}
+    
+
+.header-logo {
+    font-size: 24px;
+}
+
+nav a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.title-section {
+    justify-content: space-between;
+    gap: 50px;
+    padding-bottom: 100px;
+
+    
+}
+
+.left-title {
+    max-width: 500px;
+
+}
+.title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    
+}
+
+.title-description {
+    font-size: 18px;
+    margin: 5px;
+    color: #E5E7EB;
+}
+
+.title-image {
+    padding-bottom: 20px;
+    align-self: center;
+    
+   
+}
+
+button {
+    margin: 5px;
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 10%;
+    background-color: rgb(121, 95, 49);
+    color: white;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+button:hover {
+    background-color: black;
+}
+
+.information {
+    padding-top: 75px;
+    padding-bottom: 150px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: rgb(51, 33, 28);
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    
+}
+
+.images img {
+    border-radius: 10%;
+    border-style: solid;
+    border-color: rgb(121, 95, 49);
+    border-width: 3px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.author {
+    text-align: end;
+    font-size: 22px;
+    padding-top: 10px;
+}
+
+.sign-up-section {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.sign-up-block {
+    background-color: #29312f;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.action {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sign-up-button {
+    border-style: solid;
+    border-color: white; 
+    border-width: 1px;
+    margin: 5px;
+}
+
+.footer {
+    padding: 50px;
+    justify-content: center;
+    background-color: rgb(51, 33, 28);
+}
+
+
+@media screen and (max-width: 875px) {
+    .title-section {
+    flex-direction: column;
+    justify-content: center;
+    }
+
+    .left-title {
+        width: auto;
+        align-self: center;
+    }
+
+    .title-image {
+        width: 400px;
+        height: 266px;
+        align-self: center;
+    }
+
+    .images {
+        flex-wrap: wrap;
+        
+    }
+
+    .sign-up-block {
+        flex-direction: column;
+    }
+
+    .sign-up-block .sign-up-button {
+        max-width: 65px;
+    }
+}
+
+
+}
