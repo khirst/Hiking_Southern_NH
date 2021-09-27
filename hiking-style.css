@@ -67,7 +67,7 @@ nav a {
 .title-image {
     padding-bottom: 20px;
     align-self: center;
-    
+
    
 }
 
@@ -167,7 +167,7 @@ button:hover {
 }
 
 
-@media screen and (max-width: 875px) {
+@media screen and (max-width: 1300px) {
     .title-section {
     flex-direction: column;
     justify-content: center;
